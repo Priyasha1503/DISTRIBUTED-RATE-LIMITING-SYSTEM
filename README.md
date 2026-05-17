@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🚀 DISTRIBUTED RATE LIMITING SYSTEM
+# ⌬ DISTRIBUTED RATE LIMITING SYSTEM ⌬
 
-### ⚡ High-Performance Distributed API Protection Microservice
+### ╰┈➤ˎˊ˗ High-Performance Distributed API Protection Microservice
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
@@ -16,7 +16,7 @@
 
 ---
 
-# 📌 Overview
+# 🌐 Overview
 
 A **high-performance distributed rate-limiting microservice** engineered to protect backend APIs from:
 
@@ -33,30 +33,30 @@ Built using a **polyglot microservices architecture** powered by:
 
 The system ensures:
 
-✅ High Availability  
-✅ Thread-Safe Request Throttling  
-✅ Distributed State Synchronization  
-✅ Ultra-Low Latency Enforcement  
+♻️High Availability  
+♻️ Thread-Safe Request Throttling  
+♻️ Distributed State Synchronization  
+♻️ Ultra-Low Latency Enforcement  
 
 ---
 
-# ✨ Core Features
+# 🧩Core Features
 
-## ⚡ Distributed State Management
+## ╰┈➤ Distributed State Management
 Utilizes **Redis** as a centralized in-memory datastore to enforce strict rate limits across distributed service instances without race conditions.
 
 ---
 
-## 🧠 Pluggable Algorithms
+## ╰┈➤ Pluggable Algorithms
 Supports industry-standard rate-limiting algorithms:
 
-- 🪣 Token Bucket
-- 🕒 Sliding Window Log
-- 📊 Fixed Window Counter
+- ⌬Token Bucket
+- ⌬ Sliding Window Log
+- ⌬ Fixed Window Counter
 
 ---
 
-## 🚀 Ultra Low Latency
+## ╰┈➤ Ultra Low Latency
 Optimized middleware pipeline ensures rate-limit validation adds:
 
 ```text
@@ -65,7 +65,7 @@ Optimized middleware pipeline ensures rate-limit validation adds:
 
 ---
 
-## 🐳 Fully Containerized
+## ╰┈➤ Fully Containerized
 Complete Dockerized infrastructure using:
 
 - Docker
@@ -75,7 +75,7 @@ Enables reproducible local development and scalable deployment.
 
 ---
 
-## 🛡️ Fault Tolerance
+## ╰┈➤ Fault Tolerance
 Designed for resilience during high-load scenarios while protecting backend services from overload conditions.
 
 ---
@@ -97,13 +97,13 @@ flowchart LR
 
 # 🔄 Request Lifecycle
 
-## 1️⃣ Client Request
+##╰┈➤Client Request
 Incoming API requests hit the API Gateway.
 
-## 2️⃣ Middleware Interception
+##╰┈➤Middleware Interception
 The Rate Limiter intercepts requests immediately.
 
-## 3️⃣ Redis Validation
+##╰┈➤Redis Validation
 The middleware checks:
 
 - Client IP
@@ -112,7 +112,7 @@ The middleware checks:
 
 against the Redis distributed cache.
 
-## 4️⃣ Decision Engine
+##╰┈➤Decision Engine
 
 ### ✅ Quota Available
 - Request forwarded to backend services
@@ -133,7 +133,7 @@ Retry-After: <seconds>
 
 ---
 
-# 💻 Tech Stack
+# 👾Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -145,9 +145,9 @@ Retry-After: <seconds>
 
 ---
 
-# 🚀 Local Development Setup
+# 🗁 Local Development Setup
 
-## 📋 Prerequisites
+## 📑 Prerequisites
 
 Install the following:
 
@@ -158,7 +158,7 @@ Install the following:
 
 # ⚙️ Installation Guide
 
-## 1️⃣ Clone Repository
+## ╰┈➤ Clone Repository
 
 ```bash
 git clone https://github.com/Priyasha1503/DISTRIBUTED_RATE_LIMITING_SYSTEM.git
@@ -168,7 +168,7 @@ cd DISTRIBUTED_RATE_LIMITING_SYSTEM
 
 ---
 
-## 2️⃣ Configure Environment Variables
+## ╰┈➤ Configure Environment Variables
 
 Create a `.env` file:
 
@@ -182,7 +182,7 @@ ALGORITHM=TOKEN_BUCKET
 
 ---
 
-## 3️⃣ Build & Run Services
+## ╰┈➤ Build & Run Services
 
 ```bash
 docker-compose up --build -d
@@ -190,7 +190,7 @@ docker-compose up --build -d
 
 ---
 
-## ✅ Service Status
+## ❯❯❯❯ Service Status
 
 API will run at:
 
@@ -200,7 +200,7 @@ http://localhost:8000
 
 ---
 
-# 🧪 Rate Limiter Testing
+# 🧩Rate Limiter Testing
 
 Trigger throttling using:
 
@@ -218,9 +218,9 @@ Expected Result:
 
 ---
 
-# 🔌 API Documentation
+# 🧩 API Documentation
 
-## 📍 Resource Access Endpoint
+##   Resource Access Endpoint
 
 ### Endpoint
 
@@ -259,16 +259,16 @@ Retry-After
 
 ---
 
-# 🔮 Future Enhancements
+# 🍀Future Enhancements
 
-## 📊 Observability
+## 💭 Observability
 - Prometheus Integration
 - Grafana Dashboards
 - Real-Time Monitoring
 
 ---
 
-## 🧠 Dynamic Tiering
+## 💭 Dynamic Tiering
 Different rate limits based on:
 
 - Free Users
@@ -277,24 +277,24 @@ Different rate limits based on:
 
 ---
 
-## 🚫 Intelligent IP Blacklisting
+## 💭 Intelligent IP Blacklisting
 Automated blocking of malicious clients consistently violating thresholds.
 
 ---
 
-# 📸 System Goals
+# ⏳System Goals
 
-✅ Scalability  
-✅ High Availability  
-✅ Low Latency  
-✅ Distributed Consistency  
-✅ Production-Grade Architecture  
+♻️ Scalability  
+♻️ High Availability  
+♻️ Low Latency  
+♻️ Distributed Consistency  
+♻️ Production-Grade Architecture  
 
 ---
 
 <div align="center">
 
-# 👨‍💻 Developed By
+# 👩🏻‍💻 Developed By
 
 ### Priyasha Sabbavarapu
 
